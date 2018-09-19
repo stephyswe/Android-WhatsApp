@@ -29,10 +29,10 @@
         <activity
             android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
             android:theme="@style/Base.Theme.AppCompat" />
-
         <activity
             android:name=".FindFriendsActivity"
             android:parentActivityName=".MainActivity" />
+        <activity android:name=".ProfileActivity"></activity>
     </application>
 
 </manifest>

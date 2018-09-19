@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "684337102703",
+    "firebase_url": "https://whatsapp-cddc0.firebaseio.com",
+    "project_id": "whatsapp-cddc0",
+    "storage_bucket": "whatsapp-cddc0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:684337102703:android:985e50a209c727f3",
+        "android_client_info": {
+          "package_name": "com.stephanie.whatsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "684337102703-asskp6354ge6etrvulset13mpupil1t5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.stephanie.whatsapp",
+            "certificate_hash": "988be4281fd9a7e65c530a29d8d1bc4ff6421024"
+          }
+        },
+        {
+          "client_id": "684337102703-2k11p4qdubul7vg7kiscdp36578f2jkj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVKL9OyF6jmXhk4gvHALePQID3El0DDDU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "684337102703-2k11p4qdubul7vg7kiscdp36578f2jkj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

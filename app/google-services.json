@@ -23,6 +23,14 @@
           }
         },
         {
+          "client_id": "684337102703-dugmk87hqi6ckbbf3snlub59rbtmvis3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.stephanie.whatsapp",
+            "certificate_hash": "a74be44d407999d5c81d671d6993557875fe85d5"
+          }
+        },
+        {
           "client_id": "684337102703-2k11p4qdubul7vg7kiscdp36578f2jkj.apps.googleusercontent.com",
           "client_type": 3
         }

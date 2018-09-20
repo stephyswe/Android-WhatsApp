@@ -12,8 +12,8 @@
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/users_profile_image"
-            android:layout_width="85dp"
-            android:layout_height="85dp"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
             android:layout_marginRight="10dp"
             android:src="@drawable/profile_image"/>
 
@@ -54,6 +54,38 @@
                 android:textAlignment="textStart"
                 android:textSize="16sp"
                 />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/request_accept_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="Accept"
+                    android:textSize="16sp"
+                    android:textAllCaps="false"
+                    android:background="@android:color/holo_green_light"
+                    android:visibility="invisible"
+                />
+
+                <Button
+                    android:id="@+id/request_cancel_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="Cancel"
+                    android:layout_marginStart="10dp"
+                    android:textSize="16sp"
+                    android:textAllCaps="false"
+                    android:background="@android:color/holo_red_dark"
+                    android:textColor="@android:color/background_light"
+                    android:visibility="invisible"
+                    />
+
+
+            </LinearLayout>
 
 
 

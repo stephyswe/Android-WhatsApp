@@ -110,6 +110,11 @@ public class MainActivity extends AppCompatActivity {
 
         }
 
+        if (item.getItemId() == R.id.main_chat_option) {
+            SendUserToChatActivity();
+
+        }
+
         if (item.getItemId() == R.id.main_settings_option) {
             SendUserToSettingsActivity();
 
@@ -185,6 +190,11 @@ public class MainActivity extends AppCompatActivity {
 
     private void SendUserToFindFriendsActivity() {
         Intent findFriendsIntent = new Intent(MainActivity.this, FindFriendsActivity.class);
+        startActivity(findFriendsIntent);
+    }
+
+    private void SendUserToChatActivity() {
+        Intent findFriendsIntent = new Intent(MainActivity.this, ChatMainActivity.class);
         startActivity(findFriendsIntent);
     }
 }

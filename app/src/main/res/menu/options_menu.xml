@@ -19,6 +19,14 @@
     </item>
 
     <item
+        android:title="Beta Chat"
+        android:id="@+id/main_chat_option"
+        app:showAsAction="never"
+        >
+
+    </item>
+
+    <item
         android:title="Settings"
         android:id="@+id/main_settings_option"
         app:showAsAction="never"

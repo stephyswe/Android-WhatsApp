@@ -23,7 +23,8 @@
         </activity>
         <activity android:name=".LoginActivity" />
         <activity android:name=".RegisterActivity" />
-        <activity android:name=".SettingsActivity" />
+        <activity android:name=".SettingsActivity"
+            android:parentActivityName=".MainActivity"/>
         <activity android:name=".GroupChatActivity" />
         <activity android:name=".PhoneLoginActivity" />
         <activity
@@ -32,8 +33,8 @@
         <activity
             android:name=".FindFriendsActivity"
             android:parentActivityName=".MainActivity" />
-        <activity android:name=".ProfileActivity"></activity>
-        <activity android:name=".ChatMainActivity"></activity>
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".ChatMainActivity" />
     </application>
 
 </manifest>

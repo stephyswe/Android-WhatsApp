@@ -11,4 +11,7 @@
     <color name="light_purple">#E8E1E7</color>
     <color name="light_green">#50d050</color>
     <color name="dark_green">#008000</color>
+
+    <color name="login_text">#BFB5B9</color>
+
 </resources>

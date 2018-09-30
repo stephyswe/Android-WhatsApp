@@ -37,13 +37,11 @@ public class ChatsFragment extends Fragment {
     private FirebaseAuth mAuth;
     private String currentUserID;
 
-
-
+    private String retImage = "default_image";
 
     public ChatsFragment() {
         // Required empty public constructor
     }
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,

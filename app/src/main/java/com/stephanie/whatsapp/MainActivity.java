@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
     private TabLayout myTabLayout;
     private TabsAccessorAdapter mTabsAccessorAdapter;
 
-    private FirebaseUser currentUser;
+    private String currentUser;
     private FirebaseAuth mAuth;
     private DatabaseReference RootRef;
 
@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         mAuth = FirebaseAuth.getInstance();
-        currentUser = mAuth.getCurrentUser();
+        currentUser = mAuth.getCurrentUser().getUid();
         RootRef = FirebaseDatabase.getInstance().getReference();
 
         mToolbar = findViewById(R.id.main_page_toolbar);

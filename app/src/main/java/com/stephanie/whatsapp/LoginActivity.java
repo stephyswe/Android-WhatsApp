@@ -16,11 +16,14 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 public class LoginActivity extends AppCompatActivity {
 
     private FirebaseAuth mAuth;
     private ProgressDialog loadingBar;
+
+    private String currentUser;
 
     private Button LoginButton, PhoneLoginButton;
     private EditText UserEMail, UserPassword;
@@ -56,6 +59,15 @@ public class LoginActivity extends AppCompatActivity {
                 startActivity(phoneLoginIntent);
             }
         });
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+
+        if (currentUser != null) {
+            SendUserToMainActivity();
+        }
     }
 
     private void AllowUserToLogin() {

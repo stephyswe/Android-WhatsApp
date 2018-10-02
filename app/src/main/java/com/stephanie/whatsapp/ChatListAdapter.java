@@ -30,7 +30,6 @@ public class ChatListAdapter extends BaseAdapter {
         public void onChildAdded(DataSnapshot dataSnapshot, String s) {
             mSnapshotList.add(dataSnapshot);
             notifyDataSetChanged();
-
         }
 
         @Override

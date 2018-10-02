@@ -23,7 +23,7 @@ public class LoginActivity extends AppCompatActivity {
     private FirebaseAuth mAuth;
     private ProgressDialog loadingBar;
 
-    private String currentUser;
+    private FirebaseUser currentUser;
 
     private Button LoginButton, PhoneLoginButton;
     private EditText UserEMail, UserPassword;
@@ -35,7 +35,7 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login_alt);
 
         mAuth = FirebaseAuth.getInstance();
-        currentUser = mAuth.getCurrentUser().getUid();
+        currentUser = mAuth.getCurrentUser();
 
         initializeFields();
 

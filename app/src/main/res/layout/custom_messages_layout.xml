@@ -4,14 +4,17 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
+
+
     <de.hdodenhof.circleimageview.CircleImageView
         android:layout_width="45dp"
         android:layout_height="45dp"
         android:layout_marginTop="10dp"
         android:src="@drawable/profile_image"
         android:id="@+id/message_profile_image"
+        android:layout_marginLeft="10dp"
         />
-    
+
     <TextView
         android:id="@+id/receiver_message_text"
         android:layout_width="wrap_content"
@@ -24,7 +27,8 @@
         android:padding="10dp"
         android:textSize="14sp"
         android:textStyle="bold"
-        android:textColor="@color/black"/>
+        android:textColor="@color/black"
+        android:layout_marginRight="20dp"/>
 
     <TextView
         android:id="@+id/sender_message_text"
@@ -39,6 +43,8 @@
         android:padding="10dp"
         android:textStyle="bold"
         android:textColor="@color/black"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
         />
 
 </RelativeLayout>

@@ -42,7 +42,7 @@ public class ChatsFragment extends Fragment {
     public ChatsFragment() {
         // Required empty public constructor
     }
-
+// Chat Fragment will not work. Current user.uid() will give nullPointer exception and it will not working properly. Please Checkit one more time else other things are working properly thanks for such a great project. 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {

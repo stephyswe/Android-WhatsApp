@@ -2,7 +2,7 @@
 
 This repository contains the source code for the GitHub Android app.
 
-[![Download from Google Play](logo2.png)](https://play.google.com/store/apps/details?id=com.github.mobile)
+[![Download from Google Play](logo.png)](https://play.google.com/store/apps/details?id=com.github.mobile)
 
 
 Please see the [issues](https://github.com/forkhubs/android/issues) section to
